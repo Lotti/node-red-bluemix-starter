@@ -18,7 +18,9 @@
         "node-red-contrib-scx-ibmiotapp":"*",
         "node-red-nodes-cf-sqldb-dashdb":"*",
         "node-red-contrib-telegrambot": "*",
-        "node-red-contrib-virtual-tjbot": "*"
+        "node-red-contrib-virtual-tjbot": "*",
+        "node-red-contrib-image-output": "*",
+        "node-red-dashboard": "*"
     },
     "scripts": {
         "start": "node --max-old-space-size=160 index.js --settings ./bluemix-settings.js -v"
