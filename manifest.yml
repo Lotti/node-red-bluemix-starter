@@ -3,4 +3,6 @@ applications:
   env:
     OPTIMIZE_MEMORY: true
   command: node index.js --settings ./bluemix-settings.js -v
+  buildpacks:
+    - nodejs_buildpack  
   health-check-type: process
